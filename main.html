@@ -1,16 +1,66 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Pricing Card</title>
+  <style>
+    .pricing-card {
+      width: 300px;
+      background-color: #f5f5f5;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .pricing-card h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .pricing-card p {
+      font-size: 18px;
+      color: #888;
+      margin-bottom: 20px;
+    }
+    
+    .pricing-card ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    
+    .pricing-card li {
+      margin-bottom: 10px;
+    }
+    
+    .pricing-card button {
+      background-color: #e91e63;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    
+    .pricing-card button:hover {
+      background-color: #c2185b;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="pricing-card">
+    <h2>Pricing Card</h2>
+    <!-- <p>$9.99/month</p> -->
+    <ul>
+      <li>Price: Rs.200</li>
+      <li>Description: Lorem</li>
+      <li>ipsum dolor sit amet,</li>
+      <li>consectetur adipiscing</li>
+      <li>elit</li>
 
+    </ul>
+    <button>Buy Now</button>
+  </div>
 </body>
-
 </html>
